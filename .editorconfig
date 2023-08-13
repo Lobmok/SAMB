@@ -35,7 +35,7 @@ roslynator_block_braces_style = multi_line
 roslynator_conditional_operator_condition_parentheses_style = include
 # roslynator_conditional_operator_condition_parentheses_style = omit_when_condition_is_single_token
 roslynator_conditional_operator_new_line = before
-roslynator_configure_await = true
+roslynator_configure_await = false
 roslynator_doc_comment_summary_style = multi_line
 roslynator_empty_string_style = literal
 roslynator_enum_flag_value_style = shift_operator
@@ -167,7 +167,7 @@ dotnet_diagnostic.RCS1047.severity = suggestion
 dotnet_diagnostic.SA1600.severity = suggestion
 
 # CS1591 Missing XML comment for publicly visible type or member
-dotnet_diagnostic.CS1591.severity = suggestion
+dotnet_diagnostic.CS1591.severity = none
 
 # SA1602: Enumeration items should be documented
 dotnet_diagnostic.SA1602.severity = none
@@ -331,7 +331,7 @@ dotnet_diagnostic.rcs0056.severity = suggestion
 # Options: roslynator_max_line_length
 
 # Normalize whitespace at the beginning of a file
-dotnet_diagnostic.rcs0057.severity = suggestion
+dotnet_diagnostic.rcs0057.severity = none
 
 # Normalize whitespace at the end of a file
 dotnet_diagnostic.rcs0058.severity = suggestion
